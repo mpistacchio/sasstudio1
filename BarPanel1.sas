@@ -1,4 +1,5 @@
-/*--Bar Panel--*/
+/*--Bar Panel--
+Version 1.1 modified June 25, 2024*/
 
 title 'Mileage by Origin and Type';
 proc sgpanel data=sashelp.cars(where=(type in ('Sedan' 'Sports'))) noautolegend;
